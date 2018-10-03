@@ -120,7 +120,7 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: gray;
+  background-color: gray;
 	border-color: darkgray;
 
 }
@@ -135,6 +135,10 @@ button[disabled=disabled], button:disabled {
 
 .paciente-invalido {
 	background-color: lightcoral;
+}
+
+#error-messages {
+	color: red;
 }
 
 #filtrar-tabela {
